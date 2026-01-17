@@ -264,6 +264,9 @@ Manifests:
 # List Docker Containers
 docker ps
 
+# pull
+docker pull tolu2618/retail-ui-multiarch:1.0.0
+
 # Run Docker Container using new Docker Image 
 docker run --name myapp1-amd64 -p 8888:8080 -d ${IMAGE}
 
